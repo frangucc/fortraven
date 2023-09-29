@@ -13,9 +13,13 @@
   font-family: 'Helvetica', sans-serif;
 }
 .intro {
-  min-width: 100%;
-  width: 100%;
   text-align:center;
   margin:0px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro img {
+    width: 90%;
+  }
 }
 </style>
